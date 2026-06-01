@@ -5,37 +5,45 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Hi, I'm Andrew Chen
+# Hi everyone! 
 
-I'm a senior at Cal Poly Pomona pursuing a Bachelor's degree in Computer Information Systems with an emphasis in Cybersecurity.
+My name is Andrew Chen and I am a recent graduate from Cal Poly Pomona recieving my Bachelor's degree in Computer Information Systems with an emphasis in Cybersecurity.
 
 My experience spans both IT operations and cybersecurity, where I've worked on endpoint support, system administration, vulnerability management, security monitoring, and enterprise technology environments.
 
 I'm particularly interested in:
 
 - Security Operations (SOC)
+- Detection Engineering
 - Threat Detection & Incident Response
 - Vulnerability Management
 - Blue Team Operations
-- Security Engineering
 
-This blog serves as a place to document my learning, share cybersecurity projects, write technical walkthroughs, and track my professional growth as I continue building a career in cybersecurity.
+This blog space will serve as a place to document my learning, share cybersecurity projects, write technical walkthroughs, and track my professional growth as I continue building a career in cybersecurity!
 
-When I'm not studying security, you'll probably find me at the gym, playing basketball, collecting trading cards, or exploring new places.
+When I'm not studying security, some hobbies of which I enjoy are gyming, playing basketball or pickleball, collecting trading cards (Pokemon and One Piece), or exploring new places to eat!
+
+Listed below are some of my skills, certifications, tools, frameworks, and systems I am familiar with and have experience with!
 
 ## Technical Skills
 
-### Security
+### Security Tools
+- CrowdStrike
 - Splunk
-- Nessus
-- Wireshark
-- Nmap
+- AWS GuardDuty
+- Wiz
+- ProofPoint
+- ServiceNow
+- VirusTotal
+- FortiGuard
 
-### Systems
-- Windows Server
-- Active Directory
+### System/Platforms
+- AWS
+- Azure
 - Linux
-- VMware
+- Windows Servers
+- Active Directory
+- Virtual Machines
 
 ### Networking
 - TCP/IP
@@ -45,5 +53,6 @@ When I'm not studying security, you'll probably find me at the gym, playing bask
 
 ### Programming & Scripting
 - Python
-- SQL
+- Java
 - PowerShell
+- Shell
