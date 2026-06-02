@@ -1,14 +1,18 @@
 ---
 title: Resume
 icon: fas fa-file-alt
-order: 3
+order: 2
 --------
 
 # Andrew Chen
 
-Computer Information Systems student at Cal Poly Pomona with hands-on experience in Security Operations, Incident Response, Threat Detection, Vulnerability Management, and IT Support. Currently working within a Security Operations Center environment investigating endpoint and cloud security alerts.
+Security Operations Center Analyst | Cybersecurity Student
 
-📄 **[Download Full Resume](/assets/files/Andrew_Chen_Resume.pdf)**
+📄 [Download Full Resume](/assets/files/Andrew_Chen_Resume.pdf)
+
+## Summary
+
+Aspiring cybersecurity professional with hands-on experience in Security Operations Center (SOC) environments, cloud security investigations, endpoint detection and response, and IT support.
 
 ## Education
 
