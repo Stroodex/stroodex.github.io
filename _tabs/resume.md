@@ -6,8 +6,6 @@ order: 2
 
 # Andrew Chen
 
-Security Operations Center Analyst | Cybersecurity Student
-
 📄 [Download Full Resume](/assets/files/Andrew_Chen_Resume.pdf)
 
 ## Summary
