@@ -2,7 +2,7 @@
 title: Resume
 icon: fas fa-file-alt
 order: 2
---------
+---
 
 # Andrew Chen
 
