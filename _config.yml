@@ -16,7 +16,7 @@ timezone: America/Los_Angeles
 
 title: Stroodex's Cyber Blog # the main title
 
-tagline: Cybersecurity Journal # it will display as the subtitle
+tagline: Cybersecurity Portfolio & Technical Blog # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Cybersecurity portfolio, projects, and technical blog.
