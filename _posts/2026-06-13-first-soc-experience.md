@@ -80,7 +80,7 @@ I also realized that cybersecurity is not only about stopping “bad guys.” A 
 
 One type of alert I found especially interesting was endpoint detection.
 
-For example, when reviewing certain detections, I noticed that activity involving drives such as `D:\` or `E:\` could sometimes indicate that a USB device had been plugged into the system. In some cases, the detection was related to malware being identified on removable media.
+For example, when reviewing certain detections, I noticed that activity involving drives such as `D:\\` or `E:\\` could sometimes indicate that a USB device had been plugged into the system. In some cases, the detection was related to malware being identified on removable media.
 
 That type of alert taught me how important context is during endpoint investigations.
 
