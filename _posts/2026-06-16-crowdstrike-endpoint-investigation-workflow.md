@@ -15,11 +15,29 @@ Phishing and spam tickets helped me build a foundation, but endpoint detections 
 
 A single endpoint alert can include a suspicious file, a process tree, a command line, a user account, a device, a hash, a remediation action, and sometimes several related detections. The challenge is not just reading the alert. The real work is understanding whether the activity is malicious, suspicious, expected for that user's role, or a false positive.
 
-This post walks through the general workflow I use when approaching a CrowdStrike Falcon endpoint detection. The screenshots used here are from a public CrowdStrike demonstration, not internal company data.
+This post explains a **general SOC investigation approach** I use when thinking through endpoint detections. It is not a company-specific runbook or internal procedure. The screenshots used here are from public CrowdStrike demonstration material and are included only as educational examples. They do not show internal company data.
+
+## Confidentiality Note
+
+This post is intentionally written at a high level.
+
+I do not include:
+
+- Internal company screenshots
+- Real hostnames
+- Real usernames or email addresses
+- Internal ticket numbers
+- Internal Slack channel names
+- Exact escalation rules
+- Private detection data
+- Proprietary queries
+- Internal runbook language
+
+The goal is to show my investigation mindset and learning process, not to publish an internal workflow.
 
 ## Starting from the Ticket Queue
 
-The investigation usually starts when a ticket appears in the ServiceNow queue.
+The investigation usually begins when an endpoint detection appears in a ticketing queue.
 
 The ticket provides the initial summary of the detection. Depending on the alert, it may include details such as:
 
@@ -37,7 +55,7 @@ At this stage, I do not assume the detection is malicious or benign. I treat the
 
 ## Identifying the Device
 
-After reviewing the ticket, the next step is to look up the device in CrowdStrike Falcon.
+After reviewing the ticket, the next step is to look up the device in the endpoint security platform.
 
 This helps answer basic but important questions:
 
@@ -57,7 +75,7 @@ The next thing I like to check is user context.
 
 Not every suspicious-looking command is automatically malicious. Sometimes engineers, developers, administrators, or technical users may run tools or scripts that look unusual compared to normal business users.
 
-This is where user research becomes important. I would review identity and user information in a directory platform such as Azure or an internal IT profile page to understand:
+This is where user research becomes important. I would review identity and user information in an approved directory or identity source to understand:
 
 - The user's job role
 - Department or business function
@@ -70,7 +88,7 @@ For example, a PowerShell script running on a developer workstation may require 
 
 ## Opening the Detection
 
-Once the device and user context are reviewed, I open the detection in CrowdStrike Falcon and focus on the process tree.
+Once the device and user context are reviewed, I open the detection and focus on the process tree.
 
 The process tree is one of the most useful parts of the investigation because it shows how the suspicious activity started and what happened afterward.
 
@@ -88,7 +106,7 @@ I usually look for:
 
 ![CrowdStrike Process Tree](/assets/img/posts/crowdstrike-process-tree-vssadmin.png)
 
-*Figure 1: Example CrowdStrike process tree showing suspicious command-line activity from a public CrowdStrike demonstration.*
+*Figure 1: Public CrowdStrike demonstration screenshot showing suspicious command-line activity. This is not internal company data.*
 
 In the screenshot above, the process tree shows suspicious activity involving `vssadmin.exe` deleting shadow copies. That type of behavior is important because adversaries often remove backups to prevent recovery after ransomware activity.
 
@@ -126,11 +144,11 @@ File path matters because suspicious files commonly appear in locations such as:
 
 Hash details can also help determine whether the file has been seen before or whether it is associated with known malicious behavior.
 
-In CrowdStrike, hash and file information can support the investigation by showing reputation, prevalence, sandbox results, and related intelligence.
+File reputation, prevalence, sandbox results, and threat intelligence can support the investigation, but I try not to rely on one signal alone.
 
-## Reviewing Falcon Actions Taken
+## Reviewing Actions Taken
 
-One of the first things I look for is whether CrowdStrike already took action.
+One of the first things I look for is whether the endpoint security tool already took action.
 
 Common outcomes include:
 
@@ -143,7 +161,7 @@ Common outcomes include:
 
 ![CrowdStrike Blocked Detection](/assets/img/posts/crowdstrike-payroll-blocked.png)
 
-*Figure 2: Example of a blocked and quarantined file from a public CrowdStrike demonstration.*
+*Figure 2: Public CrowdStrike demonstration screenshot showing a blocked and quarantined file. This is not internal company data.*
 
 If the process was blocked and the file was quarantined, that is a good sign, but it does not automatically mean the investigation is complete. I still want to understand whether anything executed before the block, whether there are related files, and whether the user needs to be contacted.
 
@@ -151,11 +169,11 @@ If the process was blocked and the file was quarantined, that is a good sign, bu
 
 Sandbox analysis can provide additional detail about a suspicious file or behavior.
 
-In some cases, CrowdStrike may have sandbox or threat intelligence information showing behavioral indicators, contacted hosts, DNS requests, dropped files, extracted strings, or MITRE ATT&CK techniques.
+In some cases, sandbox or threat intelligence information may show behavioral indicators, contacted hosts, DNS requests, dropped files, extracted strings, or MITRE ATT&CK techniques.
 
 ![CrowdStrike Sandbox Report](/assets/img/posts/crowdstrike-sandbox-report.png)
 
-*Figure 3: Example CrowdStrike sandbox report showing behavioral threat indicators from a public CrowdStrike demonstration.*
+*Figure 3: Public CrowdStrike demonstration screenshot showing sandbox-style behavioral indicators. This is not internal company data.*
 
 Sandbox details are useful because they can help answer questions such as:
 
@@ -220,7 +238,7 @@ If there are too many malicious items or the system requires deeper cleanup, an 
 
 ## Documenting the Investigation
 
-Once the analysis is complete, the findings need to be documented back in the ticket.
+Once the analysis is complete, the findings need to be documented in the ticket.
 
 Good ticket notes should include:
 
@@ -228,7 +246,7 @@ Good ticket notes should include:
 - Host and user context
 - Relevant process tree observations
 - File path and hash details
-- Actions taken by CrowdStrike
+- Actions taken by the endpoint security tool
 - Whether the user was contacted
 - User response or business justification
 - Additional scans or cleanup actions
@@ -263,7 +281,7 @@ I also learned that communication is just as important as technical analysis. Th
 
 ## Final Thoughts
 
-CrowdStrike endpoint detections helped me understand how real SOC investigations work at the endpoint level.
+Endpoint detections helped me understand how real SOC investigations work at the endpoint level.
 
 The process requires patience, curiosity, and attention to detail. A good investigation does not stop at "the file was blocked." It asks what happened before the block, what the user was doing, whether the behavior was expected, whether additional remediation is needed, and how to document the conclusion clearly.
 
