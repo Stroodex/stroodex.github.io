@@ -15,10 +15,6 @@ These competitions brought together teams from my school and other schools to de
 
 The briefing packet for one of the competitions described the scenario as defending a fictional business from a simulated advanced persistent threat. Teams earned points mainly through **service uptime** and **injects**, which meant we had to keep services running while also completing timed technical and business tasks.
 
-![Red vs Blue Banner](/assets/img/posts/red-vs-blue-experience-banner.png)
-
-*Figure 1: Portfolio banner for my Red vs Blue team competition experience.*
-
 ## Competition Overview
 
 At the start of the event, each team received a briefing packet with the instructions needed to access the environment, connect to the VPN, log into vSphere, open assigned virtual machines, review the scoring engine, submit injects, and request box resets if needed.
