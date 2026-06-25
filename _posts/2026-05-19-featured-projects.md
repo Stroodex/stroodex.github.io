@@ -51,7 +51,7 @@ A semester-long red team engagement against a simulated financial services envir
 
 - [Setting Up My Offensive Security Toolkit with Kali Linux](/posts/setting-up-my-offensive-security-toolkit/)
 - [Reconnaissance and Vulnerability Assessment in a Simulated Enterprise Environment](/posts/reconnaissance-and-vulnerability-assessment/)
-- [Enumeration: Turning Scan Results into Attack Intelligence](/posts/enumeration-turning-scan-results-into-attack-intelligence/)
+- [Enumeration: Turning Scan Results into Attack Intelligence](/posts/enumeration-turning-scans-into-attack-intelligence/)
 - [Initial Access During a Controlled Red Team Lab](/posts/initial-access-controlled-red-team-lab/)
 - [Privilege Escalation and Lateral Movement](/posts/privilege-escalation-and-lateral-movement/)
 - [Westfin Red Team Engagement: Lessons from a Semester-Long Capstone Project](/posts/westfin-red-team-engagement-capstone/)
