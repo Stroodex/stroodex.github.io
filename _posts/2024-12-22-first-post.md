@@ -4,6 +4,8 @@ title: Welcome to My Cybersecurity Portfolio!
 date: 01-01-2025
 categories: [Portfolio]
 tags: [first, post, cybersecurity, portfolio]
+image:
+  path: /assets/img/posts/welcome-cybersecurity-portfolio-banner.png
 ---
 
 # Welcome!
