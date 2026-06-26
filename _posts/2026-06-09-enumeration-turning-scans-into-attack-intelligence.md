@@ -1,6 +1,6 @@
 ---
 title: "Enumeration: Turning Scan Results into Actionable Attack Intelligence"
-date: 2026-06-09 10:00:00 -0700
+date: 2026-03-15 10:00:00 -0700
 categories: [Portfolio]
 tags: [enumeration, gobuster, smb, ftp, pfsense, offensive-security]
 ---

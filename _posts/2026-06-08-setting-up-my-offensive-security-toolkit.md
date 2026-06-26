@@ -1,6 +1,6 @@
 ---
 title: Setting Up My Offensive Security Toolkit with Kali Linux
-date: 2026-06-08 12:00:00 -0700
+date: 2026-02-15 12:00:00 -0700
 categories: [Course Projects]
 tags: [kali-linux, burp-suite, owasp-zap, greenbone, nessus, nikto, dirbuster]
 pin: false

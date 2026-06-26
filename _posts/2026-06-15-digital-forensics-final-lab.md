@@ -1,6 +1,6 @@
 ---
 title: "Digital Forensics Final Lab: Correlating Evidence Across Workstations and a Server"
-date: 2026-06-15 12:00:00 -0700
+date: 2026-12-05 12:00:00 -0700
 categories: [Portfolio]
 tags: [digital-forensics, autopsy, encase, ftk-registry-viewer, windows-forensics, incident-response]
 image:

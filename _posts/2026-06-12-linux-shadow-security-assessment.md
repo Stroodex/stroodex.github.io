@@ -1,6 +1,6 @@
 ---
 title: "Writing My First Linux Security Assessment Report Under Pressure"
-date: 2026-06-12 12:00:00 -0700
+date: 2026-11-06 12:00:00 -0700
 categories: [Portfolio]
 tags: [linux, password-security, security-assessment, risk-analysis, consulting]
 image:

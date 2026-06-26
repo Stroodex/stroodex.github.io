@@ -1,6 +1,6 @@
 ---
 title: Featured Projects
-date: 2026-05-19 12:00:00 -0700
+date: 2026-06-25 12:00:00 -0700
 categories: [Portfolio]
 tags: [cybersecurity, projects, red-team, blue-team, soc, digital-forensics, cloud-security]
 pin: true

@@ -1,6 +1,6 @@
 ---
 title: "Building My Cybersecurity Homelab to Practice Enterprise Security"
-date: 2026-06-20 12:00:00 -0700
+date: 2026-04-21 12:00:00 -0700
 categories: [Portfolio]
 tags: [homelab, active-directory, windows-server, kali-linux, blue-team, cybersecurity]
 image:

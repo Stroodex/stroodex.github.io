@@ -1,6 +1,6 @@
 ---
 title: "Initial Access in a Controlled Red Team Lab"
-date: 2026-06-10 10:00:00 -0700
+date: 2026-03-15 10:00:00 -0700
 categories: [Portfolio]
 tags: [initial-access, active-directory, pfsense, red-team, vulnerability-management]
 ---

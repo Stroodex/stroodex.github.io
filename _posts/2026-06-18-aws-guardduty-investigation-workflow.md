@@ -1,6 +1,6 @@
 ---
 title: "How I Approach AWS GuardDuty Alert Investigations"
-date: 2026-06-18 12:00:00 -0700
+date: 2026-05-29 12:00:00 -0700
 categories: [Portfolio]
 tags: [aws, guardduty, cloud-security, soc, incident-response, splunk]
 image:

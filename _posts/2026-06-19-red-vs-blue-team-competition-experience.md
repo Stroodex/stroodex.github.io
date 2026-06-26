@@ -1,6 +1,6 @@
 ---
 title: "Lessons Learned from Red vs Blue Team Cybersecurity Competitions"
-date: 2026-06-19 12:00:00 -0700
+date: 2025-03-22 12:00:00 -0700
 categories: [Portfolio]
 tags: [red-vs-blue, blue-team, incident-response, windows-server, linux, cybersecurity-competition]
 image:

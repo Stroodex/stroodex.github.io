@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Automation for SOC Investigations"
-date: 2026-06-17 12:00:00 -0700
+date: 2026-06-23 12:00:00 -0700
 categories: [Portfolio]
 tags: [powershell, soc, automation, endpoint-security, incident-response, crowdstrike]
 image:

@@ -1,6 +1,6 @@
 ---
 title: "Digital Forensics: My First Registry and Artifact Investigation"
-date: 2026-06-14 12:00:00 -0700
+date: 2025-10-28 12:00:00 -0700
 categories: [Portfolio]
 tags: [digital-forensics, registry-analysis, ftk, regripper, incident-response, windows]
 image:

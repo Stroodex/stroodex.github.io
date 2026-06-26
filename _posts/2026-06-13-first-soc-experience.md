@@ -1,6 +1,6 @@
 ---
 title: "What I Learned from My First Experience Working in a Security Operations Center"
-date: 2026-06-13 12:00:00 -0700
+date: 2026-01-01 12:00:00 -0700
 categories: [Portfolio]
 tags: [soc, incident-response, blue-team, phishing-analysis, crowdstrike, guardduty]
 image:
