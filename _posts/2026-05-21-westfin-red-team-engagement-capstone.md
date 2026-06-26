@@ -3,6 +3,8 @@ title: "Westfin Red Team Engagement: Lessons from a Semester-Long Capstone Proje
 date: 2026-05-17 12:00:00 -0700
 categories: [Portfolio]
 tags: [red-team, capstone, active-directory, pfsense, vulnerability-management, incident-response]
+image:
+  path: /assets/img/posts/westfin-capstone-red-team-banner.png
 ---
 
 # Westfin Red Team Engagement: Lessons from a Semester-Long Capstone Project

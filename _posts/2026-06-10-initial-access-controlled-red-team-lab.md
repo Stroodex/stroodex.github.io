@@ -3,6 +3,8 @@ title: "Initial Access in a Controlled Red Team Lab"
 date: 2026-03-15 10:00:00 -0700
 categories: [Portfolio]
 tags: [initial-access, active-directory, pfsense, red-team, vulnerability-management]
+image:
+  path: /assets/img/posts/lab4-initial-access-red-team-banner.png
 ---
 
 # Initial Access in a Controlled Red Team Lab
