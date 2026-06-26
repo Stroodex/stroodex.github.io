@@ -5,6 +5,7 @@ categories: [Portfolio]
 tags: [powershell, soc, automation, endpoint-security, incident-response, crowdstrike]
 image:
   path: /assets/img/posts/powershell-soc-automation-banner.png
+  description: "A SOC automation project focused on reducing endpoint containment communication delays using PowerShell."
 ---
 
 # PowerShell Automation for SOC Investigations
