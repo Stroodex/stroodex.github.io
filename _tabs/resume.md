@@ -10,7 +10,7 @@ order: 2
 
 ## Summary
 
-Aspiring cybersecurity professional with hands-on experience in Security Operations Center (SOC) environments, cloud security investigations, endpoint detection and response, and IT support.
+Cybersecurity professional with hands-on experience in Security Operations Center (SOC) environments, cloud security investigations, endpoint detection and response, and IT support.
 
 ## Education
 
@@ -86,7 +86,7 @@ Graduated: May 2026
 
 ## Certifications
 
-* Security+ (In Progress)
+* CompTIA Security+ (In Progress)
 * Google Cybersecurity Certificate
 * Cybersecurity Foundations (NASBA)
 
@@ -112,4 +112,4 @@ Python, PowerShell, Java
 
 ### Frameworks & Concepts
 
-NIST, MITRE ATT&CK, CIA Triad, SOC 2, PCI, ISO Standards
+Familiarity with NIST, MITRE ATT&CK, CIA Triad, SOC 2, PCI, and ISO security frameworks
